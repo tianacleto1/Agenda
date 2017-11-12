@@ -1,0 +1,4 @@
+org\com\dao\ContatoDAO.class
+org\com\utils\ConnectionFactory.class
+org\com\model\Contato.class
+org\com\servlet\HelloWorldServlet.class
