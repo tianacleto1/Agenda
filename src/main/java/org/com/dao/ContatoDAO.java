@@ -23,7 +23,7 @@ public class ContatoDAO {
 		String sql = "INSERT INTO contatos (nome, email, endereco, dataNascimento) VALUES (?, ?, ?, ?)";
 		
 		try {
-			PreparedStatement statement = connection.prepareStatement(sql);
+			PreparedStatement statement = this.connection.prepareStatement(sql);
 			statement.setString(1, contato.getNome());
 			statement.setString(2, contato.getEmail());
 			statement.setString(3, contato.getEndereco());
